@@ -15,6 +15,6 @@ func TestRemoveSubstring(t *testing.T) {
 	got = gotest.RemoveSubstring("haystackneedlehaystack", "needle")
 
 	if got != "haystackhaystack" {
-		t.Errorf("RemoveSubstring(\"haystackneedlehaystack\") = \"%s\"; want \"haystackhaystack\"")
+		t.Errorf("RemoveSubstring(\"haystackneedlehaystack\") = \"%s\"; want \"haystackhaystack\"", got)
 	}
 }
